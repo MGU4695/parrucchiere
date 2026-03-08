@@ -127,8 +127,8 @@
         <div class="services-grid">
             <div class="service-card"><h3>Piega</h3><p>Styling impeccabile per ogni occasione.</p></div>
             <div class="service-card"><h3>Taglio</h3><p>Linee moderne studiate sul tuo viso.</p></div>
-            <div class="service-card"><h3>Bambini & Teenager</h3><p>Taglio e acconciature per i più giovani.</p></div>
-            <div class="service-card"><h3>Colore</h3><p>Tonalità vibranti e durature.</p></div>
+            <div class="service-card"><h3>Bambini & Teenager</h3><p>Taglio e acconciature per i piÃ¹ giovani.</p></div>
+            <div class="service-card"><h3>Colore</h3><p>TonalitÃ  vibranti e durature.</p></div>
             <div class="service-card"><h3>Effetti Luce</h3><p>Schiariture naturali effetto sole.</p></div>
             <div class="service-card"><h3>Trattamenti Specifici</h3><p>Cura profonda per la salute dei capelli.</p></div>
             <div class="service-card"><h3>Acconciatura</h3><p>Raccolti eleganti per i tuoi eventi speciali.</p></div>
