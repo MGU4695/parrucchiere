@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solaire | Hair & Beauty Experience</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #f9f4f0; /* Sabbia chiarissima */
+            --accent: #d4a373;  /* Oro caldo/Sabbia dorata */
+            --text: #4a4a4a;
+            --white: #ffffff;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            color: var(--text);
+            background-color: var(--primary);
+            line-height: 1.6;
+        }
+
+        header {
+            height: 80vh;
+            background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
+                        url('https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=1470') center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--white);
+        }
+
+        .hero-content h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        .hero-content p {
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: var(--accent);
+        }
+
+        /* Griglia Servizi */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .service-card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            border-bottom: 3px solid transparent;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            border-bottom: 3px solid var(--accent);
+        }
+
+        .service-card h3 {
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 15px;
+            color: var(--accent);
+        }
+
+        .btn-book {
+            display: block;
+            width: fit-content;
+            margin: 50px auto;
+            padding: 15px 40px;
+            background-color: var(--accent);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: opacity 0.3s;
+        }
+
+        .btn-book:hover {
+            opacity: 0.8;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="hero-content">
+            <h1>SOLAIRE</h1>
+            <p>Hair & Beauty Boutique</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>I Nostri Servizi</h2>
+        <div class="services-grid">
+            <div class="service-card"><h3>Piega</h3><p>Styling impeccabile per ogni occasione.</p></div>
+            <div class="service-card"><h3>Taglio</h3><p>Linee moderne studiate sul tuo viso.</p></div>
+            <div class="service-card"><h3>Bambini & Teenager</h3><p>Taglio e acconciature per i più giovani.</p></div>
+            <div class="service-card"><h3>Colore</h3><p>Tonalità vibranti e durature.</p></div>
+            <div class="service-card"><h3>Effetti Luce</h3><p>Schiariture naturali effetto sole.</p></div>
+            <div class="service-card"><h3>Trattamenti Specifici</h3><p>Cura profonda per la salute dei capelli.</p></div>
+            <div class="service-card"><h3>Acconciatura</h3><p>Raccolti eleganti per i tuoi eventi speciali.</p></div>
+            <div class="service-card"><h3>Trattamento Forma</h3><p>Onde o liscio perfetto a lunga durata.</p></div>
+            <div class="service-card"><h3>Extension Capelli</h3><p>Volume e lunghezza naturale.</p></div>
+            <div class="service-card"><h3>Depilazione Viso</h3><p>Definizione e cura dei dettagli.</p></div>
+            <div class="service-card"><h3>Uomo (Barba & Capelli)</h3><p>Grooming dedicato allo stile maschile.</p></div>
+        </div>
+
+        <a href="#" class="btn-book">PRENOTA UN APPUNTAMENTO</a>
+    </div>
+
+    <footer>
+        &copy; 2026 Solaire Hair Boutique - Eleganza e Stile.
+    </footer>
+
+</body>
+</html>
