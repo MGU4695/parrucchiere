@@ -55,6 +55,14 @@
         }
 
         /* Gallery Lavori */
+        /* Aggiungi questo nel tuo blocco <style> per sicurezza */
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #eee; /* Colore di riserva se l'immagine sparisce */
+    display: block;
+}
         .gallery {
             padding: 60px 20px;
             display: grid;
@@ -239,5 +247,6 @@
 
 </body>
 </html>
+
 
 
